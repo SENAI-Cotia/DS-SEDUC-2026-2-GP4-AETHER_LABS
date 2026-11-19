@@ -49,3 +49,15 @@ nav{
     margin-top: 86px;
     margin-left: 90px;
 }
+
+.nomes{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    font: bold;
+}
+
+.circulo img{
+    height: 60px;
+    display: flex;
+}   
