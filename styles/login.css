@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+.pai{
+    background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.filho{
+    border: 2px solid transparent;
+    width: 45%;
+    height: 80vh;
+    background-color: #202020;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.neto{
+    border: 0.5px solid #D4AF37;
+     width: 87%;
+    height: 70vh;
+    border-radius: 5px;
+    
+    
+}
+h2{
+    font-family: 'poopins', sans-serif;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h3{
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    color: #D4AF37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    
+}
+img{
+    height: 85px;
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    
+}
+.google{
+    border: 2px solid transparent;
+    background-color: white;
+    height: 6%;
+    width: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 10%;
+
+}
+.google-logo{
+    display: flex;
+    justify-self: start;
+   
+    height: 40px;
+    width: 40px;
+}
