@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     font-family: 'poopins', sans-serif;
+    background-color: #121212;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+hr{
+    margin-top: 4%;
+}
+.comeco{
+   display: block;
+    background-color: #FFC107;
+    text-decoration: none;
+    height: 64px;
+    width: 310px;
+    border-radius: 9px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
