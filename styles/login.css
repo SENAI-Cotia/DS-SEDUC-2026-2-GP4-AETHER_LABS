@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+body{
+    background-color: black;
+    
+}
+
+.pai{
+    background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.filho{
+    border: 2px solid transparent;
+    width: 45%;
+    height: 85vh;
+    background-color: #202020;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.neto{
+    border: 0.5px solid #D4AF37;
+     width: 80%;
+    height:75vh;
+    border-radius: 8px;
+    
+    
+}
+h2{
+    font-family: 'poopins', sans-serif;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h3{
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    color: #D4AF37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    
+}
+img{
+    height: 65px;
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+    
+}
+.google{
+    font-family: 'poopins', sans-serif;
+    font-size: 7px;
+    color: rgb(10, 10, 10);
+    border: 1px solid black;
+    background-color: white;
+    height: 6%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 10%;
+
+}
+.google-logo{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-right: 13%;
+}
+.google h1{
+    font-weight: 555;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 32px;
+}
+.linha{
+    background-color: white;
+    width: 180px;   
+    height: 1px;
+    
+    margin-top: 4%;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+p{
+    color: white;
+    font-family: 'poopins', sans-serif;
+    margin-top: 10px;
+}
+
+.campos{
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.campos input{
+    font-family: 'poopins', sans-serif;
+    height: 35px;
+    width: 55%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: #202020;
+}
+
+.campos ::placeholder{
+    color:#20202062
+}
+
+.lembrar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 10px auto;
+    margin-top: 30px;
+    
+}
+.opcoes{
+     display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.opcoes p{
+     font-family: 'poopins', sans-serif;
+    margin-top: 0px;
+    font-size: 15px;
+    color: #D4AF37;
+}
+.lembrar a{
+     font-family: 'poopins', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: #D4AF37;
+}
+.lembrar a:hover{
+    color: rgb(66, 139, 248);
+}
+.termos{
+    font-family: 'poopins', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 12px;
+}
+.termos strong{
+    color: #417BD5;
+}
+.entrar{
+     font-family: 'poopins', sans-serif;
+   width: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10%;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.entrar a{
+    
+    display: block;
+    background-color: #D4AF37;
+    text-decoration: none;
+    height: 5vh;
+    width: 50%;
+    border-radius: 20px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-weight: 650;
+    text-shadow: 4px 5px 11px #000000;
+}
+.entrar a:hover{
+    background-color: #e4e4e4;
+}

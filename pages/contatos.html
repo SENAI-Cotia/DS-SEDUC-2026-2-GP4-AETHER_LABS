@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale conosco</title>
+  <link rel="stylesheet" href="/styles/contatos.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navlinks">
+            <img src="/imagens/logoSimples.png" alt="" width="69px" height="77px">
+            <a href="home.html" id="inicio">Inicio</a>
+            
+            <details name="menu-navbar">
+                <summary>Sobre nós</summary>
+                <div class="dropdown-menu">
+                    <a href="contatos.html">Contatos</a>
+                    <a href="#">História</a>
+                </div>
+            </details>
+
+            <details  name="menu-navbar">
+                <summary>Produtos</summary>
+                <div class="dropdown-menu">
+                    <a href="#">Catalogo</a>
+                    <a href="#">Computador quantico</a>
+                </div>
+            </details>
+
+            <details  name="menu-navbar">
+                <summary>Aquisições</summary>
+                <div class="dropdown-menu">
+                    <a href="pedidos.html">Pedidos</a>
+                    <a href="pagamentos.html">Pagamentos</a>
+                </div>
+            </details>
+        </div>
+ 
+        <div class="icones">
+            <img class="perfil-icone"   src="/icones/perfil-de-usuario (1).png" alt="" width="27px" height="27px">
+            <img src="/icones/favorito.png" alt="" width="25px" height="25px">
+            <img src="/icones/vista-lateral-vazia-do-carrinho-de-compras.png" alt="" width="25px" height="25px">
+            <img src="/icones/botao-circular-preenchido-de-faq.png" alt="" width="25px" height="25px">
+        </div> 
+    </div>
+
+    <div class="conteudo-principal">
+    
+    <div class="cabecalho-pagina">
+      <h1>Vamos conversar sobre o<br><span>futuro da computação</span></h1>
+      <p>Fale com nossos especialistas e encontre a solução ideal.</p>
+    </div>
+
+    <div class="area-contato">
+      
+        <div class="cartao-formulario">
+          <div class="campo-formulario">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+
+          <div class="campo-formulario">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="campo-formulario">
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto" required>
+          </div>
+
+          <div class="campo-formulario">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="2" required></textarea>
+          </div>
+
+          <div class="acoes-formulario">
+            <button type="submit" class="botao-amarelo">Enviar</button>
+          </div>
+        </form>
+    </div>
+
+
+    <div class="informacoes-contato">
+        <div class="bloco-informacao">
+          <h3>ENDEREÇO:</h3>
+          <p>Laboratório Aether Labs</p>
+        </div>
+
+        <div class="bloco-informacao">
+          <h3>E-MAIL:</h3>
+          <p>contato@aetherlabs.com</p>
+        </div>
+
+        <div class="bloco-informacao">
+          <h3>ATENDIMENTO:</h3>
+          <p>Seg a sex, 9h às 18h</p>
+        </div>
+       
+        <div class="faixa-agendamento">
+          <p>Prefere uma demonstração? Agende uma visita.</p>
+          <a href="#" class="botao-amarelo">Agendar</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #09090b;
+  color: #ffffff;
+}
+
+.inicio {
+  font-size: 20px;
+  color: #FFC107;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #FFC107;
+  max-height: 103px;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.navlinks a,
+.navlinks summary {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+details {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  margin-top: 8px;
+  background-color: rgb(39, 41, 43);
+  min-width: 160px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #af8814;
+}
+
+summary:hover {
+  color: #FFC107;
+}
+
+.icones {
+  display: flex;
+  gap: 25px;
+  filter: invert(1);
+  margin-right: 50px;
+}
+
+
+.pagina {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+
+.destaque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.subtitulo {
+  letter-spacing: 2px;
+  font-size: 14px;
+  border-bottom: 1px solid #facc15;
+  padding-bottom: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.texto-destaque h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.descricao-topo {
+  color: #a1a1aa;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.azul,
+.detalhes strong.azul {
+  color: #38bdf8;
+}
+
+
+.foto-destaque img {
+  width: 260px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.botao-filtro {
+  background-color: #facc15;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.cartao {
+  background-color: #161618;
+  border: 1px solid #27272a;
+  border-radius: 15px;
+  padding: 18px;
+}
+
+.linha-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.etiqueta {
+  background-color: #854d0e;
+  color: #fef08a;
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 15px;
+}
+
+.estrela {
+  color: #facc15;
+  font-size: 20px;
+}
+
+.cartao img {
+  width: 100%;
+  height: 285px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.linha-categoria {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #71717a;
+  margin-bottom: 5px;
+}
+
+.qubits {
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.cartao h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.resumo {
+  font-size: 12px;
+  color: #a1a1aa;
+  margin-bottom: 12px;
+}
+
+.detalhes {
+  border-top: 1px solid #27272a;
+  border-bottom: 1px solid #27272a;
+  padding: 10px 0;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: #a1a1aa;
+}
+
+.detalhes p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.detalhes strong {
+  color: #ffffff;
+}
+
+.preco {
+  color: #facc15;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.botao {
+  width: 100%;
+  background-color: #facc15;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #eab308;
+}
+
+.aviso-final {
+  background-color: #161618;
+  border: 1px solid #27272a;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.aviso-final {
+  background-color: #161618;
+  border: 1px solid #27272a;
+  border-radius: 15px;
+  padding: 32px 36px;
+}
+
+.aviso-final span {
+  display: block;
+  color: #facc15;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aviso-final h2 {
+  font-size: 24px;
+  line-height: 1.3;
+  max-width: 480px; 
+  margin-bottom: 14px;
+}
+
+.aviso-final p {
+  color: #71717a;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 620px;
+}
+
