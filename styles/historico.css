@@ -8,7 +8,7 @@
 body{
     background-color: black;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 200px;
+    
 }
 
 #inicio {
@@ -196,12 +196,12 @@ main{
 }
 
 .informacoes{
-    width: 900px;
+    width: 1000px;
     height: 700px;
     background-color: #141414;
     border: 1px solid #333;
     border-radius: 5px;
-    margin-right: 150px;
+    margin-right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,8 +213,85 @@ main{
     font-size: 40px;
     color: white;
     margin-top: 55px;
-    
 }
 
+.dados{
+    display: flex;
+    width: 90%;
+    height: 60vh;
+    border-radius: 10px;
+    border: 2px solid #FFC107;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.quantum{
+    width: 350px;
+    height: 500px;
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 
+.spark{
+    width: 350px;
+    height: 500px;
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.quantico{
+    height: 150px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 150px;
+}
+
+.dados .info{
+    width: 99%;
+    
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span{
+    color: #FFC107;
+}
+
+.dados p{
+    margin-bottom: 15px;
+}
+
+button{
+    width: 70%;
+    margin: 0 auto;
+    height: 35px;
+    background-color: #FFC107;
+    border-radius: 10px;
+    border: 1px solid #204493;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
