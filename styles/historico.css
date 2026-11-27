@@ -216,20 +216,5 @@ main{
     
 }
 
-.dados{
-    border: #FFC107 2px solid;
-    width: 90%;
-    height: 90%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    
-}
 
-main .user{
-    margin-top: 0px;
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 50px;
-}
 
