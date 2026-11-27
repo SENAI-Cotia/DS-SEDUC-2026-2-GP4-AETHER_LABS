@@ -20,37 +20,19 @@
                 </div>
                 <div class="campos">
                     <input type="name" placeholder="Digite seu Nome">
-                    <input type="number" placeholder=" Digite seu Telefone">
-                    <input type="email" placeholder="Digite seu Email">
-                    <input 
-                    type="date" 
-                    id="data_nascimento" 
-                    name="data_nascimento" 
-                    min="1900-01-01" 
-                    max="2026-11-26"
-                    color:
+                    <input type="text" placeholder="Digite sua data" onfocus="this.type='date'" onblur="if(!this.value) this.type='text'"
 >
-                    <input type="number" placeholder="CPF">
-                    <input type="number" placeholder="CEP">
+                    <input type="number" placeholder="Digite seu CPF">
+                    
                 </div>
-
-                <div class="lembrar">
-                <a href="#">Esqueceu senha?</a>
-
-                <div class="opcoes">
-                <input type="checkbox">
-                <p>Lembrar de mim</p>
-                </div>
-                </div>
-
+                <a href="login.html" id="conta">Ja tem uma conta? Entrar</a>
+                
                 <div class="termos">
                     <p>Ao continuar, você aceita o <strong> Contrato do usuário</strong>, a <strong>Política  <br>
                     de Privacidade </strong> e a <strong>Política de Cookies </strong> do Aether Labs</p>
                 </div>
 
                 <div class="entrar">
-                    <a href="#">Entrar</a>
-
                     <a href="#">Cadastrar-se</a>
                 </div>
             </div>

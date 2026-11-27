@@ -55,8 +55,12 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+}
+#conta {
+  display: block;
+  width: 350px; 
+  margin: 0 auto;
+  text-align: left;
 }
 #id_nascimento {
     color: #20202062;
@@ -68,7 +72,6 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1px;
     
 }
 img{
@@ -185,41 +188,48 @@ p{
 .termos{
     font-family: 'poopins', sans-serif;
     text-align: center;
-    margin-top: 5%;
+     margin-top: 50px;
     font-size: 12px;
 }
 .termos strong{
+   
     color: #417BD5;
 }
+
 .entrar{
-     font-family: 'poopins', sans-serif;
-   width: 100;
+    font-family: 'poopins', sans-serif;
+    width: 100;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     margin-top: 10%;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
 
 }
 .entrar a{
-    
-    display: block;
     background-color: #D4AF37;
     text-decoration: none;
     height: 5vh;
     width: 50%;
     border-radius: 20px;
-   display: flex;
+
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: black;
-    font-weight: 650;
-    text-shadow: 4px 5px 11px #000000;
+    font-weight:bold;
 }
 .entrar a:hover{
     background-color: #e4e4e4;
+}
+#conta {
+    margin-top: 1px;
+    font-family: 'poopins', sans-serif;
+    font-size: 12px;
+    color: #448AFF;
+    text-decoration: none;
 }
