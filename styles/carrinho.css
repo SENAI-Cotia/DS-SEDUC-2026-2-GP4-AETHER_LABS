@@ -120,6 +120,10 @@ section img{
     height: 80px;
     border-radius: 3px;
 }
+section h1{
+    
+    color: white;
+}
 
 main .menu{
     background: linear-gradient(to bottom right, #131220,#131220,#0e0d20);
