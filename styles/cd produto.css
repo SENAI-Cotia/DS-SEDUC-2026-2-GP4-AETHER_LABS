@@ -1,0 +1,245 @@
+/* Reset e Configurações Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  border-bottom: 1px solid #f5b800;
+  background-color: #000000;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.navlinks a,
+.navlinks summary {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  list-style: none;
+  transition: color 0.2s;
+}
+
+.navlinks a:hover,
+.navlinks summary:hover {
+  color: #f5b800;
+}
+
+/* Dropdown do <details> */
+details {
+  position: relative;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 140%;
+  left: 0;
+  background-color: #141414;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 10px 0;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.dropdown-menu a {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #222;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icones img {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icones img:hover {
+  transform: scale(1.1);
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 60px 20px 30px;
+}
+
+/* HERO / TÍTULO */
+.hero {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 14px;
+}
+
+.hero h1 span {
+  color: #f5b800;
+  font-weight: 600;
+}
+
+.hero p {
+  color: #cccccc;
+  font-size: 0.95rem;
+}
+
+/* 4 PILARES DE AMBIENTE */
+.pilares {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.pilar-card .linha-amarela {
+  width: 100%;
+  height: 2px;
+  background-color: #f5b800;
+  margin-bottom: 14px;
+}
+
+.pilar-card h3 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+
+.cuidados-detalhes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.imagem-container img {
+  width: 380px;
+  max-width: 200%;
+  border-radius: 26px;
+  display: block;
+  object-fit: cover;
+}
+
+.lista-cuidados {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.lista-cuidados li {
+  font-size: 0.95rem;
+  color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lista-cuidados li::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: #4a6b82;
+}
+
+
+.cronograma {
+  background-color: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 14px;
+  padding: 28px 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.cronograma-item .periodo {
+  display: block;
+  color: #f5b800;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.cronograma-item p {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+
+.suporte-cta {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suporte-cta p {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+.btn-suporte {
+  color: #f5b800;
+  border: 1px solid #f5b800;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.btn-suporte:hover {
+  background-color: #f5b800;
+  color: #000000;
+}
+
+
+.amarelo{
+  color: #f5b800;
+}
