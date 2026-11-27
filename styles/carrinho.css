@@ -1,56 +1,193 @@
-*{margin: 0%;padding: 0%;}
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
 
 body{
-    background-color: black;
-    align-items: center;
+    background: linear-gradient(to bottom left, #010211,#030218,#0e0d20);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-header{
-    width: 100vw;
-    height: 140px;
+
+/* NavBar do dufi */
+#inicio {
+    font-size: 20px;
+    color: #FFC107;
+}
+.navbar {
+    min-width: 100vh;
     padding: 10px;
+    background: linear-gradient(to bottom left, #000002,#02010c,#07060f);
     display: flex;
-    flex-direction: row;
-    background-color: rgb(36, 32, 32);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFC107;
+    max-height: 103px;
+  
 }
-header a{
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 50px;
     font-size: 20px;
-    margin-top: 23px;
-    margin-left: 30px;
-    text-decoration: none;
-    color: rgb(238, 222, 81);
+    
 }
-header .a1{
-    font-size: 20px;
-    margin-top: 23px;
-    margin-right: 40vw;
+
+.navlinks a,
+.navlinks summary {
     text-decoration: none;
-    color: rgb(238, 222, 81);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
+
+
+details {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    
+
+    margin-top: 8px;
+    background-color: rgb(39, 41, 43);
+    min-width: 160px;
+    border-radius: 6px;
+    z-index: 10;
+ 
+}
+
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 14px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #af8814;
+}
+summary:hover{
+    color: #FFC107;
+}
+
+.icones {
+    display: flex;
+    gap: 25px;
+    filter: invert(1);
+    margin-right: 50px;
+}
+/* NavBar do dufi */
+
 main{
-    display: inline-flexbox;
-    padding: 40px;
-    margin: 80px auto 80px auto;
-}
-main div{
-    background-color: rgb(61, 59, 59);
-    width: 90vw;
-    height: 17vh;
-    margin: 40px auto 40px auto;
-    border-radius: 10px;
+    display: flex;
     transition: all 0.5s;
 }
-main div:hover{
-    background-color: rgb(61, 59, 59);
-    width: 90vw;
-    height: 25vh;
-    margin: 50px auto 50px auto;
-    border-radius: 10px;
+main .lista-pedidos{
+    background-color: rgb(6, 7, 12);
+    width: 60vw;
+    height: 30vw;
+    padding: 50px 30px 30px 50px;
+    margin: 130px 20px 23vh 80px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
-footer{
-    background-color: rgb(36, 32, 32);
+main .lista-pedidos section{
+    background: radial-gradient(circle at center, #131220,#131220,#0e0d20);
+    border: 4px solid #041d4b;
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+section input{
+    display: none;
+}
+section input + label:before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #041d4b;
+    margin: 10px;
+}
+section img{
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+
+main .menu{
+    background: linear-gradient(to bottom right, #131220,#131220,#0e0d20);
+    border-radius: 7px;
     color: white;
-    width: 100vw;
-    height: 30vh;
-    display: flex;
-    flex-direction: row;
+    text-align: center;
+    width: 20vw;
+    height: 450px;
+    margin: 150px 10px 10px 100px;
+}
+main .menu h1{
+    margin: 10px 0% 30px 0%;
+    font-size: 40px;
+    font-weight: bold;
+}
+main .menu p{
+    margin: 10px;
+    font-size: 20px;
+}
+main .menu .finalizar{
+    background: rgb(125, 197, 84);
+    border-radius: 7px;
+    border: none;
+    color: #edfce1;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0px 0px 7px 3px rgba(112, 175, 75, 0.877);
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+main .menu .finalizar:hover{
+    background: rgb(80, 151, 39);
+    border-radius: 7px;
+    border: none;
+    color: #edfce1;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 0px 7px 3px rgba(125, 173, 97, 0.877);
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+main .menu .remover{
+    background: rgb(0, 0, 0);
+    border-radius: 7px;
+    border: 2px solid red;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+main .menu .remover:hover{
+    background: red;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px 3px rgba(189, 60, 55, 0.877);
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
 }

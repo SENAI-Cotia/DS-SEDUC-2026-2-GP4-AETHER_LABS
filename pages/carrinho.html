@@ -8,42 +8,80 @@
 </head>
 <body>
 
-    <header>
-        <a href="">Inicio</a>
-        <a href="">Sobre</a>
-        <a href="">Cuidados</a>
-        <a href="">Categorias</a>
-        <a href="" class="a1">Contato</a>
-    </header>
+    <div class="navbar">
+        <div class="navlinks">
+            <img src="/imagens/logoSimples.png" alt="" width="69px" height="77px">
+            <a href="home.html" id="inicio">Inicio</a>
+            
+            <details name="menu-navbar">
+                <summary>Sobre nós</summary>
+                <div class="dropdown-menu">
+                    <a href="contatos.html">Contatos</a>
+                    <a href="#">História</a>
+                </div>
+            </details>
+
+            <details  name="menu-navbar">
+                <summary>Produtos</summary>
+                <div class="dropdown-menu">
+                    <a href="#">Catalogo</a>
+                    <a href="#">Computador quantico</a>
+                </div>
+            </details>
+
+            <details  name="menu-navbar">
+                <summary>Aquisições</summary>
+                <div class="dropdown-menu">
+                    <a href="pedidos.html">Pedidos</a>
+                    <a href="pagamentos.html">Pagamentos</a>
+                </div>
+            </details>
+        </div>
+
+
+       
+        <div class="icones">
+            <img class="perfil-icone"   src="/icones/perfil-de-usuario (1).png" alt="" width="27px" height="27px">
+            <img src="/icones/favorito.png" alt="" width="25px" height="25px">
+            <img src="/icones/vista-lateral-vazia-do-carrinho-de-compras.png" alt="" width="25px" height="25px">
+            <img src="/icones/botao-circular-preenchido-de-faq.png" alt="" width="25px" height="25px">
+        </div> 
+    </div>
+    <!-- NavBar do dufi -->
 
     <main>
 
-        <div >
-            <img src="#">
+        <div class="lista-pedidos">
+            <section>
+                <input type="checkbox" name="produto1" id="produto1">
+                <label for="produto1"></label>
+                <img src="/imagens/carrinho/produto1.jpg">
+            </section>
+
+            <section><img src="" alt=""></section>
+            <section><img src="" alt=""></section>
+            <section><img src="" alt=""></section>
+            <section><img src="" alt=""></section>
+            <section><img src="" alt=""></section>
         </div>
-        <div >
-            <img src="">
-        </div>
-        <div >
-            <img src="">
-        </div>
-        <div >
-            <img src="">
-        </div>
-        <div >
-            <img src="">
-        </div>
-        <div >
-            <img src="">
+
+        <div class="menu">
+            <h1>Resumo do pedido</h1>
+
+            <p>Subtotal:R$ 0,10</p>
+
+            <P>Desconto: R$ 0,00</P>
+            <p>Frete: R$ 0,00</p>
+
+            <hr>
+
+            <P>Total: R$ 0,10</P>
+
+            <button class="finalizar" onclick="">Finalizar pedido</button>
+            <button class="remover" onclick="">Remover</button>
         </div>
 
     </main>
-
-    <footer>
-        <div>
-
-        </div>
-    </footer>
     
 </body>
 </html>
