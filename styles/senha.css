@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+h1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+     margin-bottom: 50px;
+}
+h2{
+    color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+     margin-bottom: 10px;
+}
+
+img{
+       width: 200px;
+    height: 200px;
+
+   
+}
+
+.e-mail{
+margin: 400px;  
+    justify-content: space-around;
+     margin-right:180px;
+    
+}
+form{
+    color: aliceblue;
+   text-align: center;
+   
+       
+}
+label{
+
+      color: #888888; /* Cinzento médio para o título "E-mail" */
+      font-size: 0.95rem;
+      margin-bottom: 0.6rem;
+       margin-bottom: 50px;
+       font-size: 30px;
+    
+}
+input::placeholder {
+  color: #777777;
+}
+input{
+    background: transparent; /* Remove o fundo branco padrão */
+      border: none; /* Remove todas as bordas */
+      border-bottom: 1px solid #555555; /* Mantém apenas a linha inferior */
+      font-size: 30px;
+    color: #ffffff;
+     margin-bottom: 50px;
+    }
+
+    input:focus {
+      border-bottom-color: #ffffff;
+    }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color:  #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+
+  margin-top:10px;
+ 
+}
+.container a{
+   background-color: #FFC107 ;
+    padding: 25px 50px;
+    color: white;
+    text-decoration: none;
+     border-radius: 7px;
+}
+
+
