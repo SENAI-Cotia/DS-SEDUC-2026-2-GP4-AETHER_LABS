@@ -1,84 +1,74 @@
-/* Reset e Configurações Gerais */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  background-color: #000000;
+  background-color: #09090b;
   color: #ffffff;
-  line-height: 1.5;
 }
 
-/* NAVBAR */
+.inicio {
+  font-size: 20px;
+  color: #FFC107;
+}
+
+
 .navbar {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 15px 5%;
-  border-bottom: 1px solid #f5b800;
-  background-color: #000000;
+  justify-content: space-between;
+  border-bottom: 2px solid #FFC107;
+  max-height: 103px;
 }
 
 .navlinks {
   display: flex;
   align-items: center;
-  gap: 35px;
+  margin-left: 20px;
+  gap: 50px;
+  font-size: 20px;
 }
 
 .navlinks a,
 .navlinks summary {
-  color: #ffffff;
   text-decoration: none;
-  font-size: 16px;
+  color: rgb(255, 255, 255);
   cursor: pointer;
-  list-style: none;
-  transition: color 0.2s;
 }
 
-.navlinks a:hover,
-.navlinks summary:hover {
-  color: #f5b800;
-}
-
-/* Dropdown do <details> */
-details {
-  position: relative;
-}
-
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-.dropdown-menu {
+dropdown-menu {
   position: absolute;
-  top: 140%;
-  left: 0;
-  background-color: #141414;
-  border: 1px solid #333;
+  margin-top: 8px;
+  background-color: rgb(39, 41, 43);
+  min-width: 160px;
   border-radius: 6px;
-  padding: 10px 0;
-  min-width: 180px;
-  display: flex;
-  flex-direction: column;
-  z-index: 100;
+  z-index: 10;
 }
 
 .dropdown-menu a {
-  padding: 8px 16px;
-  font-size: 14px;
+  display: block;
+  padding: 10px 14px;
 }
 
 .dropdown-menu a:hover {
-  background-color: #222;
+  background-color: #af8814;
+}
+
+summary:hover {
+  color: #FFC107;
 }
 
 .icones {
   display: flex;
-  align-items: center;
-  gap: 20px;
+  gap: 25px;
+  filter: invert(1);
+  margin-right: 50px;
 }
 
 .icones img {
@@ -90,14 +80,14 @@ details summary::-webkit-details-marker {
   transform: scale(1.1);
 }
 
-/* CONTAINER PRINCIPAL */
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
   padding: 60px 20px 30px;
 }
 
-/* HERO / TÍTULO */
+
 .hero {
   text-align: center;
   margin-bottom: 70px;
@@ -120,7 +110,7 @@ details summary::-webkit-details-marker {
   font-size: 0.95rem;
 }
 
-/* 4 PILARES DE AMBIENTE */
+
 .pilares {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

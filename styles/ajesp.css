@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #09090b;
+  color: #ffffff;
+}
+
+.inicio {
+  font-size: 20px;
+  color: #FFC107;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #FFC107;
+  max-height: 103px;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.navlinks a,
+.navlinks summary {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+details {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  margin-top: 8px;
+  background-color: rgb(39, 41, 43);
+  min-width: 160px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #af8814;
+}
+
+summary:hover {
+  color: #FFC107;
+}
+
+.icones {
+  display: flex;
+  gap: 25px;
+  filter: invert(1);
+  margin-right: 50px;
+}
+
+
+.conteudo-principal {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 55px 20px 60px;
+}
+
+
+.area-ajuda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 65px;
+  padding: 0 30px;
+}
+
+.titulo-ajuda {
+  color: #5ca4ea;
+  font-size: 1.85rem;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.lista-problemas {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-left: 25px;
+}
+
+.item-problema {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.95rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.caixa-icone {
+  width: 34px;
+  height: 34px;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa-icone img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+
+.coluna-ilustracao {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.texto-erro {
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-size: 1.05rem;
+  color: #ffffff;
+  margin-top: -30px;
+}
+
+.coluna-ilustracao img {
+  width: 200px;
+  max-width: 100%;
+  object-fit: contain;
+  border-color: 5px solid #131212;
+ 
+}
+
+
+.cartao-avaliacao {
+  background-color: #1f1f1f;
+  border: 1px solid #3a3a3a;
+  border-radius: 16px;
+  padding: 22px 35px;
+  margin-top: 80px;
+}
+
+.cabecalho-avaliacao {
+  border-bottom: 1px solid #4a4a4a;
+  padding-bottom: 9px;
+  margin-bottom: 18px;
+  display: inline-block;
+  padding-right: 40px;
+
+}
+
+.cabecalho-avaliacao h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #f0f0f0;
+}
+
+.formulario-avaliacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.grupo-notas {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.rotulo-notas {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.opcoes-notas {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.botao-nota input {
+  display: none;
+}
+
+.botao-nota span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 28px;
+  background-color: #0d0d0d;
+  border: 1px solid #444444;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.botao-nota span:hover {
+  border-color: #f5b800;
+}
+
+.botao-nota input:checked + span {
+  background-color: #f5b800;
+  color: #000000;
+  border-color: #f5b800;
+  font-weight: 600;
+}
+
+.botao-enviar {
+  background-color: #e5be3b;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 38px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.15s;
+}
+
+.botao-enviar:hover {
+  background-color: #f5b800;
+  transform: translateY(-1px);
+}
+
+hr{
+   border-color: #444444;
+}
+
+.amarelo{
+  color: #e5be3b;
+}

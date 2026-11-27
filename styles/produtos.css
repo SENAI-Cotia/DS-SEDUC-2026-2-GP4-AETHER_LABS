@@ -231,7 +231,7 @@ summary:hover {
 
 .botao {
   width: 100%;
-  background-color: #facc15;
+  background-color: #e5be3b;
   color: #000000;
   font-weight: bold;
   border: none;
@@ -278,5 +278,9 @@ summary:hover {
   font-size: 13px;
   line-height: 1.5;
   max-width: 620px;
+}
+
+.amarelo{
+  color: #e5be3b;
 }
 
