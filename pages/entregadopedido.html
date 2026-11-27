@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreamento de Pedido</title>
+    <link rel="stylesheet" href="entrega.css">
+</head>
+<body>
+
+    
+        
+            <header class="navbar">
+                <div class="navlinks">
+                    <img src="/imagens/logoSimples.png" alt="" width="69px" height="77px">
+                    <a href="home.html" id="inicio">Inicio</a>
+                    
+                    <details name="menu-navbar">
+                        <summary>Sobre nós</summary>
+                        <div class="dropdown-menu">
+                            <a href="contatos.html">Contatos</a>
+                            <a href="#">História</a>
+                        </div>
+                    </details>
+
+                    <details name="menu-navbar">
+                        <summary>Produtos</summary>
+                        <div class="dropdown-menu">
+                            <a href="#">Catalogo</a>
+                            <a href="#">Computador quantico</a>
+                        </div>
+                    </details>
+
+                    <details name="menu-navbar">
+                        <summary>Aquisições</summary>
+                        <div class="dropdown-menu">
+                            <a href="pedidos.html">Pedidos</a>
+                            <a href="pagamentos.html">Pagamentos</a>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="icones">
+                    <img class="perfil-icone" src="/icones/perfil-de-usuario (1).png" alt="" width="27px" height="27px">
+                    <img src="/icones/favorito.png" alt="" width="25px" height="25px">
+                    <img src="/icones/vista-lateral-vazia-do-carrinho-de-compras.png" alt="" width="25px" height="25px">
+                    <img src="/icones/botao-circular-preenchido-de-faq.png" alt="" width="25px" height="25px">
+                </div> 
+            </header>
+        
+
+    <section class="banner">
+        <h1>Sua máquina chega até você com <span class="destaque">segurança</span></h1>
+        <p class="subtitulo">Acompanhe o trajeto do seu computador em tempo real, do nosso laboratório direto para a sua mesa.</p>
+
+        <div class="info-pedido">
+            <div class="esquerda">
+                <img src="computador.png" alt="" class="img-pc">
+                <div class="codigo-entrega">
+                    <span class="tipo">*Entrega padrão</span>
+                    <span class="codigo">BR2709222425 📋</span>
+                </div>
+            </div>
+
+            <div class="direita">
+                <div class="espaco-robo">
+                    <img src="robo.png" alt="" class="img-robo">
+                </div>
+                <button class="btn-detalhes">Detalhes do pedido</button>
+            </div>
+        </div>
+    </section>
+
+    <main class="rastreio">
+        <div class="status-atual">
+            <span class="hora">14:30</span>
+            <img src="favorito.png" alt="" class="img-check">
+            <div class="texto-status">
+                <h2>Pedido entregue.</h2>
+                <p>Recebido por: Felippe</p>
+            </div>
+        </div>
+
+        <div class="etapa-rastreio">
+            <span class="hora">12:25</span>
+            <div class="marcador-etapa">
+                <img src="bola da torres.png" alt="" class="img-ponto">
+            </div>
+            <p>Pedido em rota de entrega para seu endereço, aguarde pelas próximas horas</p>
+        </div>
+
+        <div class="etapa-rastreio">
+            <span class="hora">08:17</span>
+            <div class="marcador-etapa">
+                <img src="bola da torres.png" alt="" class="img-ponto">
+            </div>
+            <p>Seu pedido chegou ao último centro logistico São paulo - SP</p>
+        </div>
+
+        <div class="etapa-rastreio">
+            <span class="hora">21:08</span>
+            <div class="marcador-etapa">
+                <img src="bola da torres.png" alt="" class="img-ponto">
+            </div>
+            <p>Seu pedido saiu do centro logístico Barueri - SP</p>
+        </div>
+
+        <div class="etapa-rastreio">
+            <span class="hora">15:20</span>
+            <div class="marcador-etapa">
+                <img src="bola da torres.png" alt="" class="img-ponto">
+            </div>
+            <p>Seu pedido está em separação no centro logístico Barueri - SP</p>
+        </div>
+
+        <div class="etapa-rastreio">
+            <span class="hora">10:15</span>
+            <div class="marcador-etapa">
+                <img src="bola da torres.png" alt="" class="img-ponto">
+            </div>
+            <p>Seu pedido chegou ao centro logístico Barueri - SP</p>
+        </div>
+    </main>
+
+</body>
+</html>
