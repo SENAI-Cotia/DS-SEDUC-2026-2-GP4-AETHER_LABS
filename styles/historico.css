@@ -11,16 +11,74 @@ body{
     margin-bottom: 200px;
 }
 
-nav{
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    border-bottom: 3px solid #FFC107;
-    color: white;
-    justify-content: center;
-    align-items: center;
+#inicio {
+    font-size: 20px;
+    color: #ffffff;
+}
+.navbar {
+    min-width: 100vh;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
     display: flex;
-    font-size: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFC107;
+    max-height: 103px;
+  
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 50px;
+    font-size: 20px;
+    
+}
+
+.navlinks a,
+.navlinks summary {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+
+details {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    
+
+    margin-top: 8px;
+    background-color: rgb(39, 41, 43);
+    min-width: 160px;
+    border-radius: 6px;
+    z-index: 10;
+ 
+}
+
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 14px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #af8814;
+}
+summary:hover{
+    color: #FFC107;
+}   
+
+.icones {
+    display: flex;
+    gap: 25px;
+    filter: invert(1);
+    margin-right: 50px;
 }
 
 .user{
@@ -138,22 +196,24 @@ main{
 }
 
 .informacoes{
-    width: 800px;
-    height: 550px;
+    width: 900px;
+    height: 700px;
     background-color: #141414;
     border: 1px solid #333;
     border-radius: 5px;
-    margin-right: 100px;
+    margin-right: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    
 }
 
 .pai h2{
     font-size: 40px;
     color: white;
-    margin-top: 40px;
+    margin-top: 55px;
+    
 }
 
 .dados{
@@ -163,5 +223,13 @@ main{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    
+}
+
+main .user{
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
 }
 
