@@ -5,17 +5,19 @@
     margin: 0;
     padding: 0;
 }
-body {
- 
-  background-image: url(/imagens/Gemini_Generated_Image_mehmqrmehmqrmehm.jpg);
-  background-size: cover;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: local;
+html {
+  min-height: 100%;
 }
 
-
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url(/imagens/Gemini_Generated_Image_mehmqrmehmqrmehm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* em vez de local */
+}
 
 #inicio {
     font-size: 20px;
