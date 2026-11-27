@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 .neto{
-    border: 0.5px solid #D4AF37;
+    border: 0.5px solid #FFC107;
      width: 80%;
     height:75vh;
     border-radius: 8px;
@@ -227,9 +227,22 @@ p{
     background-color: #e4e4e4;
 }
 #conta {
-    margin-top: 1px;
+    margin-top: 5px;
     font-family: 'poopins', sans-serif;
     font-size: 12px;
     color: #448AFF;
+   
     text-decoration: none;
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-right: 12px; 
+  cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
